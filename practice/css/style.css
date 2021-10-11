@@ -67,6 +67,27 @@ header {
 }
 
 /*------------------------
+top
+-------------------------*/
+.top {
+  background-image: url(../img/main-vsual-nontitle.png);
+  background-size: cover;
+  padding: 80px;
+}
+
+.top-title {
+  font-size: 48px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.top-subtitle {
+  font-size: 18px;
+  text-align: center;
+}
+
+/*------------------------
 section共通class
 -------------------------*/
 
@@ -79,4 +100,91 @@ section共通class
   font-weight: bold;
   text-align: center;
   margin-bottom: 40px;
+}
+
+/*------------------------
+anout
+-------------------------*/
+
+.about-left {
+  float: left;
+  width: 48%;
+}
+
+.about-right {
+  float: right;
+  width: 48%;
+}
+
+/*------------------------
+course
+-------------------------*/
+
+.course {
+  background-color: #e3fcf4;
+}
+.course-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.course-item {
+  width: 30%;
+}
+
+/*------------------------
+contact
+-------------------------*/
+
+.contact-message {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+input[type="email"],input[type="text"] {
+  width: 600px;
+  border: 3px solid #d8d8d8;
+  font-size: 18px;
+  display: block;
+  margin: auto;
+  padding: 15px;
+  border-radius: 999px;
+  margin-bottom: 20px;
+}
+
+.btn {
+  padding: 20px 60px;
+  display: inline-block;
+  background: #082b48;
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+  border-radius: 4px;
+  border: none;
+}
+
+.btn:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.btn-register {
+  background-color: #ec6d64;
+  display: block;
+  margin: auto;
+}
+
+/*------------------------
+footer
+-------------------------*/
+
+footer {
+  background-color: #082B48;
+  color: #fff;
+  padding: 20px 0;
+}
+
+.copy-right {
+  font-size: 12px;
+  float: right;
 }
